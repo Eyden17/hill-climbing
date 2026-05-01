@@ -3,7 +3,7 @@ import math
 import random
 
 
-def simulated_annealing(grid, T_min, T_initial, cooling_rate):
+def hill_climbing(grid, T_min, T_initial, cooling_rate):
     """
     Optimize hospital positions using simulated annealing by exploring random moves
     and occasionally accepting worse states to escape local optima.
