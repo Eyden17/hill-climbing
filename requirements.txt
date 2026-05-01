@@ -1,3 +1,4 @@
-pytest
-coverage
 tabulate
+pygame
+pytest
+pytest-cov
